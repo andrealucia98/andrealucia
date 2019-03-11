@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900');
+
+body{
+	font-family: Sofia Pro Light;
+	background-color: rgba(56,53,56,1.00);
+}
+#about-me{
+	background-image: url(../img/IMG_9989.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 200px;
+}
+
+#about-me h1, p{
+	text-align: justify;
+	position: relative;
+	right:190px;
+	
+}
+
+#about-me h1{
+	font-weight:bold;
+}
+
+#about-me p{
+	font-size: 17px;
+}
+.btn-secondary{
+	align-items: right;
+}
+
+.btn-secondary:hover{
+ background-color: rgba(221,145,255,1.00);
+}
+
+#servicios img{
+	width: 80px;
+}
+
+#servicios h1{
+	font-weight: bold;
+	padding-top: 30px;
+    padding-bottom: 20px;
+}
+#servicios{
+	text-align: center;
+	padding-bottom: 50px;
+	background-color:#383538;
+	color: #fff;
+}
+
+#servicios p{
+	text-align: justify;
+	position: relative;
+	right: 10px;
+}
+
+
+
+#produccion:hover{
+	background-color: #6E6E6E;
+    
+}
+	
+
+
+#clientes{
+	padding:40px;
+	background-color: #fff;
+
+}
+
+#clientes h2{
+	font-weight: 400;
+}
+
+#tipo-proyecto{
+	text-align: center;
+	color: #fff;
+	background-color: #383538;
+	padding: 10px;
+}
+
+#tipo-proyecto li{
+	padding-right: 20px;
+
+}
+
+#tipo-proyecto a{
+	color: #fff;
+
+}
+
+#proyectos{
+	background-color: #383538;
+	color: #fff;
+}
+
+
+
