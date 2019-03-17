@@ -40,7 +40,7 @@ a{
 }
 
 .dropdown-menu{
-	background-color:#0c0c0c;
+	background-color:#fff;
 	border:0;
 }
 .dropdown-menu .dropdown-item{
@@ -75,7 +75,7 @@ a{
 	cursor:pointer;
 }
 .navbar-light .navbar-brand {
-	color:#363636;		
+	color:#fff;		
 	height: auto;
 }
 .navbar-light .navbar-brand:hover {
