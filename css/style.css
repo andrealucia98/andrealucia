@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600');
 
 body{
 	font-family: Sofia Pro Light;
@@ -33,37 +33,67 @@ body{
 
 .btn-secondary:hover{
  background-color: rgba(221,145,255,1.00);
+border-color: rgba(0,0,0,0.00);
 }
 
 #servicios img{
-	width: 80px;
+	width: 70px;
 }
 
 #servicios h1{
 	font-weight: bold;
 	padding-top: 30px;
     padding-bottom: 20px;
+	text-align: center;
 }
+
 #servicios{
 	text-align: center;
-	padding-bottom: 50px;
 	background-color:#383538;
 	color: #fff;
 }
 
 #servicios p{
-	text-align: justify;
+	text-align: center;
 	position: relative;
-	right: 10px;
+	right: 0.5px;
+	color:#C0C0C0;
+}
+
+
+
+#titulo-servicios{
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
 }
 
 
 
 #produccion:hover{
 	background-color: #6E6E6E;
-    
+	width: 100%;  
 }
+
+#diseno:hover{
+	background-color: #6E6E6E;
+	width: 100%;  
+}
+
+#fotografia:hover{
+	background-color: #6E6E6E;
+	width: 100%;  
+}
+
+#redaccion:hover{
+	background-color: #6E6E6E;
+	width: 100%;  
+}
+
+#formulario{
+	background-color: #FFFFFF;
 	
+}
 
 
 #clientes{
@@ -76,27 +106,110 @@ body{
 	font-weight: 400;
 }
 
-#tipo-proyecto{
+#sec-proyectos{
+	padding: 60px;
 	text-align: center;
+}
+#sec-proyectos h2{
+	padding-top: 30px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-weight: 400;
+	color:#fff;	
+}
+
+#sec-proyectos p{
+	padding: 30px;
+	font-weight: 400;
 	color: #fff;
-	background-color: #383538;
-	padding: 10px;
+	font:Segoe;
+    font-size: 16px;
+	position: relative;
+	right: 0.5px;
+	text-align: center;
 }
 
-#tipo-proyecto li{
-	padding-right: 20px;
 
+.proyectos-line h2{
+	border-bottom: 1px dotted #FDFDFD;
 }
 
-#tipo-proyecto a{
+
+.btn{
+		border-color: rgba(0,0,0,0.00);
+	    border-radius: 30px;
+	    padding-left: 20px;
+		padding-right: 20px;
+	    text-align: center;
+}
+
+#formulario{
+	background-image:url( ../img/kaitlyn-baker-422999-unsplash1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 90px 0;
+	color: #FFF;
+}
+
+#formulario h2{
+	font-weight: 600;}
+	
+
+#footer{
+	background-color: #0C0C0C;
+	padding: 50px 0;
+	width: 100%;
+		
+	
+}
+
+#footer h3{
+	font-size: 20px;
+     margin-bottom: 20px;
 	color: #fff;
-
 }
 
-#proyectos{
-	background-color: #383538;
+
+
+#footer li{
+	list-style: none;
+}
+
+#footer i{
+	color:#fff;
+	margin-right: 5px;
+}
+
+#footer a,
+#copyright a{
 	color: #fff;
 }
 
 
 
+
+
+#footer a:hover,
+#copyright a:hover{
+	color: #E997FF;
+}
+	
+#copyright{
+	padding: 20px 0;
+	color: #fff;
+	
+}
+
+#copyright a{
+	font-weight: 200;
+}
+
+#copyright li{
+	list-style: none;
+	font-size: 12px;
+}
+
+#copyright p{
+	
